@@ -1,22 +1,25 @@
 .home {
-    background: url(/assets/img/background.png)  no-repeat center fixed;
+    background: url(/assets/img/background.png)  no-repeat center;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover;
-    height: 100vh;
+    height: 75vh;
     color: white;
 
     .nav-bar {
         font-size: 1rem;
-        padding-top: 30px;
+        padding-top: 40px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
         p {
             padding-left: 30px;
+            font-size: 1.8rem;
 
             span {
                 margin-left: 20px;
+                font-size: 1rem;
+
             }
         }
         
@@ -37,6 +40,7 @@
     }
     
     .home-txt {
+        height: 50vh;
         padding-top: 50px;
         font-size: 1.5rem;
         display: flex;
@@ -46,6 +50,7 @@
 
         h1 {
             margin: 70px 0 70px 0;
+            text-align: center;
         }
 
     }
