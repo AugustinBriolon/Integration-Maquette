@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.home {
+  background: url(/assets/img/background.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.home .nav-bar {
+  font-size: 1rem;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home .nav-bar p {
+  padding-left: 30px;
+}
+.home .nav-bar p span {
+  margin-left: 20px;
+}
+.home .nav-bar .nav-pages,
+.home .nav-bar .nav-logo {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.home .nav-bar .nav-pages li,
+.home .nav-bar .nav-logo li {
+  margin: 0 15px 0 15px;
+}
+.home .nav-bar .nav-logo {
+  padding-right: 80px;
+}
+.home .home-txt {
+  padding-top: 50px;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home .home-txt h1 {
+  margin: 70px 0 70px 0;
+}
+
+/*# sourceMappingURL=main.css.map */
