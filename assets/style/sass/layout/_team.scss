@@ -1,0 +1,114 @@
+.team {
+    padding: 25px 50px 50px 50px;
+
+    .team-cartes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px;
+        justify-content: center;
+        text-align: center;
+
+        h2 {
+            grid-row: 1 / 2;
+            grid-auto-columns: 20px;
+            height: 50px;
+        }
+
+        .carte-t-1 {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+
+            &:hover {
+                background: url(/assets/img/team1.png) no-repeat top;
+
+                img {
+                    display: none;
+                }
+
+            }
+        }
+
+        .carte-t-2 {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+
+            &:hover {
+                background: url(/assets/img/team2.png) no-repeat  top;
+
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        .carte-t-3 {
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+
+            &:hover {
+                background: url(/assets/img/team3.png) no-repeat top;
+
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        .carte-t {
+            position: relative;
+
+            h3 {
+                font-size: 1.5rem;
+                padding-top: 10px;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            ul {
+                display: none;
+            }
+
+            &:hover {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: white;
+
+                h3,
+                p,
+                ul {
+                    z-index: 3;
+                }
+
+                h3 {
+                    padding-bottom: 20px;
+                }
+
+                ul {
+                    list-style-type: none;
+                    padding: 20px;
+                    width: 50%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    li {
+                        height: 50px;
+                        width: auto;
+                        padding: 10px 10px 0 10px;
+
+                        svg {
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

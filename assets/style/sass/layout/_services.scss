@@ -1,0 +1,29 @@
+.service {
+    padding: 200px 0 50px 0;
+
+    .services-content {
+        display: flex;
+        flex-direction: row;
+
+        div {
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h2 {
+                font-size: 2rem;
+                padding-right: 250px;
+
+                span {
+                    color: red;
+                }
+            }
+
+            p {
+                font-size: 1.5rem;
+                padding: 70px 150px 70px 0;
+            }
+        }
+    }
+}

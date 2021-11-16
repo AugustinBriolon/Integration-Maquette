@@ -16,7 +16,7 @@
     }
 
     .button_about {
-        padding: 70px ;
+        padding: 30px ;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -45,20 +45,20 @@
     height: 40vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 80px;
+    // gap: 100px;
     justify-content: center;
     align-items: flex-start;
     padding: 0 70px 50px 70px;
 
-    .cartes {
+    .carte-a {
         height: 30vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 20px 0 20px;
+        padding: 10px 40px 30px 40px;
 
         .number {
-            font-size: 5rem;
+            font-size: 7rem;
             color: rgb(215, 80, 143);
             opacity: 0.3;
             z-index: 0;
@@ -66,20 +66,20 @@
         }
 
         h3 {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
 
         p {
             padding-top: 25px;
+            font-size: 1rem;
         }
 
         &:hover {
-            transition: 1s;
             background: $color-main;
             color: white;
 
             .number {
-                transition: 1s;
+                transition: 0.3s;
                 color: white;
                 opacity: 1;
                 position: relative;
